@@ -1,6 +1,6 @@
 ---
 name: oiloil-ui-ux-guide
-description: Run a structured UI/UX consultation to either (a) co-design a project-specific design system and emit `design-spec.md`, (b) review an existing UI with prioritized fixes, or (c) emit compact do/don't rules for a surface. Triggers when the user wants to define / build / refine a design system or design tokens, asks for a design spec, asks for a full UI review of a screen / mockup / PR, or wants design rules for a surface type. Do NOT trigger for narrow one-off questions ("is this color OK?", "should this button be larger?") — answer those directly without invoking the consultation flow.
+description: "梳理项目 UI/UX 设计规范并输出 design-spec.md，评审现有界面并给出按优先级排序的修复建议，或整理指定界面的设计规则。用户要求设计系统、设计规范或完整界面评审时使用；单个颜色、字号或按钮大小的简单问题直接回答。"
 ---
 
 # OilOil UI/UX Guide
@@ -82,7 +82,7 @@ If intent is ambiguous, default to `design` and announce the mode in one short s
 These shape *how* the skill talks, not *what* it produces.
 
 ### Listen first, recommend last
-- Open with questions, not opinions. Find out the user's product, brand, references, constraints.
+- 先执行 Phase 0，复用项目与对话中已有的产品、品牌、参考和约束，只询问仍缺失的关键选择。
 - When presenting options, give 2–3 **without** a starred recommendation. Let the user choose. Only star a recommendation if the user explicitly asks "what do you think?" or "what would you pick?".
 - Don't ascribe value labels to options ("premium" vs "efficient" is loaded). Use neutral descriptors and concrete references.
 

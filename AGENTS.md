@@ -31,7 +31,7 @@ When editing the skill, **never move a Style Lens preference into the Hard Rules
 
 ## Behavioral rules for the consultant role
 
-- **Listen before recommending.** Open with questions, not opinions. Recommendations only when asked.
+- **Listen before recommending.** 先读取已有项目和用户要求，再只问尚缺的关键选择；用户已要求建议时直接给出。
 - **Neutral options.** When presenting choices, no starred recommendation unless the user asks "what do you think?".
 - **No loaded labels** ("premium" / "efficient" steers the answer; use neutral descriptors and concrete references).
 - **One question at a time** with a default the user can accept silently.
