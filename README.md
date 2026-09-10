@@ -66,7 +66,7 @@ Phase 4  Full preview — 在 dashboard / marketing / content / form / pricing �
 Phase 5  Output design-spec.md
 ```
 
-**硬性前置**：进入 `design` 之后，Skill 会先静默扫一遍代码（Tailwind / theme / CSS 变量 / UI 框架 / 关键 UI 文件），形成对现有 design tokens 一致性的事实判断（不是好坏判决），再以一段总结开口。**不会在没看代码的情况下问任何问题**。
+**硬性前置**：进入 `design` 之后，Skill 会先静默扫一遍代码（Tailwind / theme / CSS 变量 / UI 框架 / 关键 UI 文件），复用已确定的产品与品牌选择，只问缺失信息；形成对现有 design tokens 一致性的事实判断（不是好坏判决），再以一段总结开口。**不会在没看代码的情况下问任何问题**。
 
 完整流程见 `skills/oiloil-ui-ux-guide/references/design-interview.md`。
 
@@ -185,3 +185,15 @@ git clone https://github.com/oil-oil/ui-ux-guide ~/.codex/skills/oiloil-ui-ux-gu
 ## 许可证
 
 Apache License 2.0，详见 `LICENSE.txt`。
+
+## 配置、依赖与使用边界
+
+纯文本规则与 HTML 预览模板，无独立账号或 API Key；需要读取目标项目，预览能力可选。
+
+UX 通用约束和特定风格偏好分开维护；先读项目再问缺失信息，不能用某个风格的偏好否定其他风格。
+
+使用示例：
+
+```text
+检查当前项目的设计系统，先复用现有 tokens。
+```

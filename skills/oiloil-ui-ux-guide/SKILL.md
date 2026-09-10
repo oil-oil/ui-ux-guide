@@ -82,7 +82,7 @@ If intent is ambiguous, default to `design` and announce the mode in one short s
 These shape *how* the skill talks, not *what* it produces.
 
 ### Listen first, recommend last
-- Open with questions, not opinions. Find out the user's product, brand, references, constraints.
+- 先执行 Phase 0，复用项目与对话中已有的产品、品牌、参考和约束，只询问仍缺失的关键选择。
 - When presenting options, give 2–3 **without** a starred recommendation. Let the user choose. Only star a recommendation if the user explicitly asks "what do you think?" or "what would you pick?".
 - Don't ascribe value labels to options ("premium" vs "efficient" is loaded). Use neutral descriptors and concrete references.
 
